@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+html, body{
+	font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+ 
+}
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+
+.cadre{
+	width: 900px;
+  margin: 0 auto;
+  background-color: gainsboro;
+  text-align: center;
+  
+}
+
+article{
+	border: 1px solid #333;
+	box-shadow: 0 0 0.3rem #999;
+	border-radius: 0.2rem;
+	padding: 1.2rem;
+	margin-bottom: 1.6rem;
+	color: #333;
+}
+
+
+.cadri{
+	border: 1px solid #333;
+	box-shadow: 0 0 0.3rem #999;
+border-radius: 0.2rem;
+padding: 0.1rem;
+margin-bottom: 1.6rem;
+background:#EEE  right center no-repeat;
+}
+
+article img{
+	float: right;
+	margin: 0 0 3px 6px;
+}
+
+article a{
+	text-decoration:  none;
+	color: rgb(33,110,211);
+}
+article p{
+	margin: 6px 0;
+}
+
+article ul{
+	padding-left: 16px;
+	list-style: square;
+}
